@@ -1,0 +1,152 @@
+/* Colors and fonts */
+
+h1 {
+	color : #004225 ; 
+	font-family: 'Merriweather', serif;
+	font-size:26px;
+	line-height:2;
+	font-weight:600;
+	text-align:center;
+}
+body {
+	background-color:#D0E7D2;
+	color:#618264;
+	font-family: 'Merriweather', serif;
+	font-size : 13px;
+	font-weight:light;
+}
+a {
+	text-decoration: none;
+}
+
+h2 {
+	color: #004225;
+	font-size:18px;
+}
+
+h3 {
+	color:#004225;
+	font-size:14px;
+	text-align:right;
+	text-decoration: underline;
+	font-style:italic;
+}
+
+
+
+
+/* Custom design with class and id */
+
+.container {
+	width:700px;
+	margin: 50px auto;
+}
+
+@media (max-width: 750px) {
+	.container {
+		width:600px;
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		width:500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width:450px;
+	}
+}
+
+
+.card-white {
+	background-color:#AEC3AE;
+	padding:30px;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+	border-radius:30px;
+	margin:25px auto;
+	text-align:center;
+}
+
+#photo {
+	width:120px;
+	border-radius: 50%;
+}
+
+.list-inline {
+	list-style:none;
+	padding-left:0px;
+	margin-top:40px;
+}
+
+.list-inline li {
+	display: inline;
+	padding:30px;
+}
+
+.list-inline i {
+	font-size:28px;
+	color:grey;
+}
+.list-inline i:hover {
+	color:darkgrey;
+}
+
+#introduction p {
+	margin-top:30px;
+}
+
+#hello p {
+	font-style:italic;
+	font-size:16px;
+}
+
+#music i {
+	font-size:38px;
+	color:#004225;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+#music i:hover {
+	color:black;
+}
+
+#traveling a {
+	color:#618264;
+	font-family: 'Merriweather', serif;
+	font-size : 13px;
+	font-weight:bold;
+}
+
+#traveling a:hover {
+	color:#004225
+
+}
+
+#photo2 {
+	width:400px;
+	border-radius:20px;
+	margin:10px auto;
+	text-align:center;
+}
+
+.remerciements {
+	text-align:right;
+	margin-top: 70px;
+}
+
+.remerciements a {
+	font-size:10px;
+	color:#618264;
+	font-style:italic;
+	font-weight: bold;
+}
+.remerciements a:hover{
+	color:black;
+}
+
+
+
